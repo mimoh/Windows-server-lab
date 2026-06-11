@@ -1,0 +1,18 @@
+# Windows Server Lab
+
+## Environment
+
+Host:
+- Windows 11
+
+Hypervisor:
+ VirtualBox 7.2.8
+
+VM:
+- Windows2022Server
+
+Operating System:
+- Windows Server 2022 Standard Desktop Experience
+
+Purpose:
+Build an Active Directory home lab.
