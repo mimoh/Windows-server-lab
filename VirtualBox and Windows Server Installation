@@ -1,0 +1,36 @@
+#Windows Server 2022 and VirtualBox
+
+#Objective
+-Installing VirtualBox 7.2.8 and Windows Server 2022
+
+#Tools used
+-Virtual Box
+-Windows Server 2022
+
+##Steps
+-Installed VirtualBox 7.2.8
+-Create a new Virtual Machine (Windows Server 2022)
+-Virtual Box 7.2.8, click New and input Virtual Machine New name(Avoid spaces)
+-Mount the ISO
+-Type- Microsoft Windows
+-Version Windows 2022 (64-bit)
+-Memory- 4GB
+-CPU- 2 Cores
+-HDD- 80 GB
+-Skip unattended installation to do a Manual setup
+
+#Start the VM and install the software
+-Select Windows Server 2022 Standard (Desktop Experience) to get the standard graphical user interface, rather than the command-line Core edition.
+-Choose Custom installation
+-The files will install and restart automatically
+-After the restart, you will be prompted to change your Administrator password
+-At the Logon screen, you need to send a Ctrl+Alt+Del to log in. In the VirtualBox menu, click on Input, Keyboard, insert Ctrl+Alt+Del, then enter the password to access the desktop
+
+#Lessons Learnt
+-Including attended installation when installing the Virtual Machine will give an error with the software later
+-The Software Version you select is important since it affects your user experience
+
+
+
+
+ 
